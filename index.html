@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kantor walutowy</title>
+    <meta property="og:image" content= "images/graphic.png">
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/container.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body class="body">
+    <div class="container"></div>
+    <form class="js-form form">
+      Pola wymagane oznaczone są gwiazdką*.
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Kantor Walutowy</legend>
+        <p>
+          <label> <span class="form__labelText"> Kwota w PLN* </span> </label>
+          <input
+            class="form_field js-amount"
+            type="number"
+            name="amount"
+            min="1"
+            step="any"
+            required
+          />
+        </p>
+        <p>
+          <label> <span class="form__labelText"> Wybierz walutę </span> </label>
+          <select class="form_field js-currency" name="currency">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+          </select>
+        </p>
+        <p>
+          <button class="form__button">Przelicz</button>
+        </p>
+        <p class="js-result form__result">Otrzymasz: <strong></strong></p>
+      </fieldset>
+    </form>
+  </body>
+</html>
