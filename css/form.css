@@ -39,14 +39,13 @@
 }
 
 .form__fieldset {
-    padding: 20 px;
+    padding: 40 px;
     border-radius: 5px;
     margin: 20px 0;
     text-align: center;
     background: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   flex-basis: 700 px;
+
 
 
 }
