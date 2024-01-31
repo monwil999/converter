@@ -7,10 +7,14 @@ html {
 }
 
 body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     margin: auto;
     max-width: 460px;
     background-image: url("../images/money.jpg");
+    background-size: cover;
+    background-position: center;
 }
-
