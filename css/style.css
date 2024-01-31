@@ -11,18 +11,6 @@ body {
     font-size: 20px;
     margin: auto;
     max-width: 460px;
-    background-image: url("../images/money.jpg")
+    background-image: url("../images/money.jpg");
 }
 
-
-
-
-.form__labelText {
-    width: 100%;
-    max-width: 150 px;
-    display: inline-block;
-    margin-right: 5px;
-    padding: 10px 0px;
-    font-weight: bold;
-
-}
