@@ -44,6 +44,9 @@
     margin: 20px 0;
     text-align: center;
     background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
 }
@@ -59,7 +62,7 @@
 
 .form_field:required {
     border-color: black;
-    
+
 }
 
 .form__result {
