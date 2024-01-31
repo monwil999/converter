@@ -7,9 +7,6 @@ html {
 }
 
 body {
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     margin: auto;
