@@ -59,6 +59,7 @@
 
 .form_field:required {
     border-color: black;
+    
 }
 
 .form__result {
