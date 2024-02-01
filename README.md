@@ -5,7 +5,7 @@
 **Here's a simple calculator that allows you to quickly convert popular currencies.
 Currencies convert from PLN to EURO, USD and GBP.**
 
-![Currency Converter](/images/KANTOR.mp4)
+![Currency Converter](https://github.com/monwil999/converter/blob/main/images/KANTOR-_1_.gif)
 
 ## Features
 
