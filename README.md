@@ -18,4 +18,4 @@ Currencies convert from PLN to EURO, USD and GBP.**
 
 ## Demo
 
-https://monwil999.github.io/currency-conventer/
+https://monwil999.github.io/converter/
